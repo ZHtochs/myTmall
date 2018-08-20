@@ -1,0 +1,172 @@
+.goods-container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+/*品牌商品列表格式*/
+
+.brandList1 {
+    text-align: justify;
+}
+
+.brandList1 .actiTitle {
+    font-size: 18px;
+    color: #ff0036;
+    max-width: 252px;
+    margin: 10px auto;
+}
+
+.brandList1 img {
+    display: inline-block;
+}
+
+
+/*brandList2*/
+
+.brandList2 {
+    text-align: justify;
+}
+
+.brandList2 .brandHead {
+    display: inline-block;
+}
+
+.brandList2 .brandHead img {
+    height: 316px;
+}
+
+.brandList2 .title {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    line-height: 54px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+.brandList2 .subTitle {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 10px;
+    line-height: 24px;
+    height: 44px;
+}
+
+.brandList3 {
+    text-align: justify;
+}
+
+.brandList3 img {
+    width: 120px;
+    display: inline-block;
+    text-align: justify;
+    /*margin: 20px 12px 12px 12px;*/
+}
+
+
+/*分类商品列表*/
+
+.productsList .floor {
+    margin: 10px 0;
+}
+
+.productsList .floor .mark {
+    display: inline-block;
+    background-color: #333333;
+    width: 5px;
+    height: 20px;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.productsList .floor .floorTitle {
+    font-size: 20px;
+    color: #000;
+    height: 28px;
+    margin: 5px;
+}
+
+.productsList .floor .floorSubTitle {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 24;
+    height: 18px;
+}
+
+.productsList .floor a {
+    font-size: 16px;
+    height: 18px;
+    float: right;
+    color: #000;
+    margin: 0 0 5px 20px;
+}
+
+.productsList .floor a:hover {
+    text-decoration: underline;
+}
+
+.productsList .titleImg img {
+    width: 235px;
+    float: left;
+}
+
+.itemBox {
+    text-align: justify;
+}
+
+.itemBox .productItem {
+    width: 236px;
+    height: 302px;
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.itemBox .productItem:hover {
+    border: 1px red solid;
+}
+
+.productItem img {
+    width: 200px;
+    margin-left: 20px;
+}
+
+.productItem .productItemDesc {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    color: #333333;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 10px 45px;
+    display: block;
+    text-align: center;
+}
+
+.productItem .productPrice {
+    font-size: 18px;
+    color: #FF0036;
+    line-height: 18px;
+    margin: 80px;
+}
+
+
+/* 猜你喜欢*/
+
+.youLike .title {
+    color: #666;
+    text-align: center;
+    height: 43px;
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.youLike .end {
+    text-align: center;
+}

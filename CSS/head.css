@@ -1,0 +1,139 @@
+/*整体宽度控制*/
+
+.head-container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+nav.top {
+    background-color: #f2f2f2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+nav.top span,
+nav.top a {
+    color: #999;
+    margin: 0px 5px;
+}
+
+nav.top a:hover {
+    color: #DD2727;
+    text-decoration: none;
+}
+
+
+/* 容器 <div> - 需要定位下拉内容 */
+
+.headdrop {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* 下拉内容 (默认隐藏) */
+
+.headdrop-content {
+    display: none;
+    position: absolute;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+
+/* 在鼠标移上去后显示下拉菜单 */
+
+.headdrop:hover .headdrop-content {
+    display: block;
+}
+
+
+/*分别设置两个下拉菜单的宽度和高度*/
+
+.mytaobao .headdrop-content {
+    width: 120px;
+}
+
+.fav .headdrop-content {
+    width: 100px;
+}
+
+
+/*s搜索端*/
+
+
+/*搜索框*/
+
+.seach-container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+div.searchDiv {
+    background-color: #DD2727;
+    width: 625px;
+    height: 40px;
+    margin: 60px 310px;
+    display: block;
+}
+
+div.searchDiv input {
+    width: 483px;
+    border: none;
+    height: 34px;
+    margin: 3px;
+    outline: none;
+}
+
+
+/*搜索按钮*/
+
+div.searchDiv button {
+    width: 100px;
+    border: 1px solid transparent;
+    background-color: #DD2727;
+    padding-top: 4px;
+    padding-left: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+
+/*搜索框下方关键词*/
+
+div.searchBelow {
+    margin-top: 2px;
+    margin-left: -20px;
+}
+
+.searchBelow a {
+    color: #999;
+    padding: 0 20px 0 20px;
+    font-size: 14px;
+}
+
+div.searchBelow span {
+    color: #999;
+}
+
+
+/*猫耳图标*/
+
+.logo {
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    z-index: -1;
+    /*表示放在下面*/
+}
+
+a:hover {
+    text-decoration: none;
+    color: #DD2727;
+}
+
+
+/*搜索段结束*/

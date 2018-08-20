@@ -1,0 +1,55 @@
+/*重置--------------------------------------------------*/
+
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+dl,
+dt,
+dd,
+fieldset,
+input,
+button {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/*天猫红*/
+
+.red-color {
+    color: #DD2727 !important;
+}
+
+input,
+button {
+    border: none;
+}
+
+body {
+    font: 12px/1.5 "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "宋体", sans-serif;
+    background: white;
+}
+
+
+/*三角形*/
+
+.triangle {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    width: 0;
+    height: 0;
+    border: 3px solid transparent;
+    border-top-color: #bbb;
+    border-bottom: none;
+}

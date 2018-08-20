@@ -1,0 +1,76 @@
+ /*整体宽度控制*/
+ 
+ .foot-container {
+     width: 1300px;
+     margin: 0 auto;
+ }
+ 
+ div.foot {
+     margin: 0px 0px;
+     border-top-style: solid;
+     border-top-width: 1px;
+     border-top-color: #e7e7e7;
+ }
+ 
+ div.footEnsure {
+     margin: 24px 0px;
+     text-align: center;
+ }
+ 
+ div.footerDesc {
+     text-align: center;
+     border-top-style: solid;
+     border-top-width: 1px;
+     border-top-color: #e7e7e7;
+     padding-top: 30px;
+     margin: 0px 20px;
+     text-align: justify;
+ }
+ 
+ div.footerDesc .descColumn {
+     float: left;
+     margin: 0 0 0 120px;
+     height: 200px;
+ }
+ 
+ div.foot-container .footerDesc .descColumn span.columnTitle {
+     font-size: 16px;
+     font-weight: bold;
+     color: #646464;
+ }
+ 
+ div.descColumn a {
+     display: block;
+     padding: 3px;
+     color: #999;
+     text-decoration: none;
+ }
+ 
+ .cateye img {
+     max-height: 20px;
+     margin-left: 5%;
+ }
+ 
+ div.copyright-background {
+     background-color: black;
+     border-top: 2px solid #c40000;
+ }
+ 
+ .white_link a,
+ .white_link span {
+     color: white;
+ }
+ 
+ .white_link,
+ .license {
+     padding: 10px 0px;
+     margin-left: 10px;
+ }
+ 
+ .license span {
+     color: #A4A4A4;
+ }
+ 
+ .license div {
+     color: #686868;
+ }

@@ -1,0 +1,200 @@
+/*导航段*/
+
+
+/*整体宽度控制*/
+
+.carousel-container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+/*控制两个图的大小*/
+
+.rightMenu {
+    float: right;
+}
+
+.rightMenu img {
+    max-width: 100px;
+    max-height: 30px;
+}
+
+
+/*商品分类格式*/
+
+div.categoryWithCarousel div.head {
+    width: 200px;
+    height: 36px;
+    line-height: 36px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    background-color: #DD2727;
+}
+
+
+/*内联*/
+
+div.categoryWithCarousel div.rightMenu {
+    display: inline-block;
+}
+
+
+/*商品分类后面选项的字体格式*/
+
+div.categoryWithCarousel div.rightMenu a {
+    width: 64px;
+    height: 35px;
+    color: black;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+div.carousel-of-product {
+    margin: 0px auto;
+    border-top: #DD2727 3px solid;
+}
+
+
+/*为每张图面设置背景颜色*/
+
+.slide .luban1 {
+    background-color: rgb(255, 126, 5);
+}
+
+.slide .luban2 {
+    background-color: rgb(15, 48, 236);
+}
+
+.slide .luban3 {
+    background-color: rgb(12, 1, 1);
+}
+
+.slide .luban4 {
+    background-color: rgb(255, 230, 0);
+}
+
+
+/*对齐*/
+
+.slide .luban1,
+.slide .luban2,
+.slide .luban3,
+.slide .luban4 {
+    padding: 0 365px;
+}
+
+
+/*导航结束*/
+
+
+/*分类和推荐*/
+
+.category-container {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+
+/*左侧导航栏整体样式*/
+
+div.categoryMenu {
+    width: 200px;
+    height: 503px;
+    background-color: #000000;
+    /* IE6和部分IE7内核的浏览器(如QQ浏览器)下颜色被覆盖 */
+    background-color: rgba(0, 0, 0, 0.2);
+    /* IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂，但解析为透明 */
+    position: absolute;
+    z-index: 10;
+    /*border: #C40000 2px solid;*/
+}
+
+
+/*左侧导航栏字体样式*/
+
+div.categoryMenu a {
+    color: white;
+    font-size: 10px;
+    padding: 0;
+}
+
+div.categoryMenu a:hover {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+
+/*左侧导航栏样式*/
+
+div.cateGoryMenu {
+    position: absolute;
+}
+
+div.eachCategory {
+    line-height: 29px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+div.eachCategory:hover {
+    background-color: white;
+}
+
+
+/*右侧栏样式，默认隐藏*/
+
+div.productsAsideCategory {
+    position: absolute;
+    z-index: 10;
+    margin-left: 200px;
+}
+
+div.productsAsideCategorys {
+    width: 700px;
+    height: 510px;
+    background-color: white;
+    display: none;
+    border: white 2px solid;
+    z-index: 10;
+}
+
+div.productsAsideCategorys div.row {
+    margin: 20px;
+}
+
+
+/*右侧分隔线*/
+
+div.productsAsideCategorys div.row div.seperator {
+    margin-top: 20px;
+    border-bottom-style: dashed;
+    border-bottom-width: 1px;
+    border-bottom-color: #e7e7e7;
+}
+
+
+/*右侧字体样式*/
+
+div.productsAsideCategorys a {
+    color: #999;
+    font-size: 14px;
+    margin: 8px;
+}
+
+div.productsAsideCategorys .asideTitle {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+div.productsAsideCategorys a:hover {
+    color: #C40000;
+    text-decoration: none;
+}
+
+
+/*分类和推荐-end*/
